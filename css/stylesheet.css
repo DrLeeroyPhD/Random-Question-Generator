@@ -1,7 +1,3 @@
-body {
-  background-color: #a5cbc5;
-}
-
 #container {
   text-align: center;
   margin-top: 45%;
@@ -10,6 +6,7 @@ body {
 
 #container h2 {
   font-family: 'Lobster', cursive;
+  text-shadow: 0 0 3px #cccccc, 0 0 20px #ffffff;
 }
 
 #container button#next {
