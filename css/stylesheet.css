@@ -4,7 +4,7 @@
   margin-bottom: 55%;
 }
 
-#container h2 {
+#container h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 0 0 3px #cccccc, 0 0 20px #ffffff;
 }
@@ -12,4 +12,13 @@
 #container button#next {
   padding: 20px 40px;
   border-radius: 10px;
+  background-color: #ff0000;
+  border: 4px outset #f81515;
+  color: #eee;
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+}
+
+#container button#next:active {
+  border: 5px inset #f81515;
 }
