@@ -1,7 +1,8 @@
 #container {
   text-align: center;
-  margin-top: 45%;
-  margin-bottom: 55%;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
 }
 
 #container h1 {
@@ -21,4 +22,8 @@
 
 #container button#next:active {
   border: 5px inset #f81515;
+}
+
+#container button#next:focus {
+  outline: none;
 }

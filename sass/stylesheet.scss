@@ -4,8 +4,9 @@ body{
 
 #container{
     text-align: center;
-    margin-top: 45%;
-    margin-bottom: 55%;
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
     
     h1{
         font-family: 'Lobster', cursive;
@@ -23,6 +24,10 @@ body{
         
         &:active{
             border: 5px inset #f81515;
+        }
+        
+        &:focus{
+            outline: none;
         }
     }
 }
